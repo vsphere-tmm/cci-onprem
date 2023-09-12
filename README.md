@@ -1,1 +1,4 @@
-# cci-onpremises
+# Introducing CCI OnPrem
+VMware is delighted to share a preview of the CCI OnPrem appliance. This beta release aims to provide insights into the technology's capabilities and gather invaluable feedback from users to refine CCI before its general availability. 
+
+However, it's important to note that the OnPrem appliance is a preview version intended for gathering customer feedback and influencing VMware's product roadmap. As such, it should only be installed on a fresh Aria Automation instance that is not used for any production workloads. This preview version is not part of any shipping product capability, and it does not fall under regular support service level agreements (SLAs). VMware retains the right to discontinue development of this capability at any time and may request users to stop using it. Additionally, any feedback provided by users may be used by VMware for various purposes. 
