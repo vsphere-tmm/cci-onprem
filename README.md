@@ -33,12 +33,18 @@ Single SignOn (SSO): This preview does not support SSO feature. Any actions on t
 The following scripts are designed for installing CCI on a fresh Aria Automation appliance for testing purpose only. We recommend a single-node deployment with a minimum version of 8.13. These deployment and rollback scripts require no additional parameters to run. Comprehensive installation instructions can be found in the provided link. 
 
 ./deploy_cci_on_aria_auto_appliance.sh
+
 ./rollback_cci_deployment.sh
+
 ./populate_sample_data.sh --org-id <UUID> --user <USER> --storage-class <STORAGE_PROFILE>
+
 Example: ./populate_sample_data.sh --org-id ffc03a8d-22ed-4fac-a64a-22dd4d611794 --user fritz@vmware.com --storage-class wcpglobal-storage-profile
 
 
- ./deploy_cci_on_aria_auto_appliance.sh script should be run first. If there are any errors when executing the deployment script, ./rollback_cci_deployment.sh script should be run to undo the deployment script changes.
+ ./deploy_cci_on_aria_auto_appliance.sh script should be run first. If there are any errors when executing the deployment script
+
+ ./rollback_cci_deployment.sh script should be run to undo the deployment script changes.
+
 For the populate_sample_data.sh script, the USER passed should be the username used for logging into Aria Automation.
 
 **Questions & Feedback**
