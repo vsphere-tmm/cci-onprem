@@ -4,7 +4,7 @@ CCI serves as a cloud experience layer for Supervisor IaaS services. To end-user
 
 Comprehensive instructions can be accessed through the following link:
 
-https://core.vmware.com/resource/cci-onprem-beta
+https://core.vmware.com/resource/cci-onprem-tech-preview 
 
 **Please be aware that you are currently in the main branch. To obtain the most up-to-date installation scripts, kindly select the latest available branch for download!**
 
